@@ -1,1 +1,69 @@
 /* Select all the tags under .html file */
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 1px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Design - Body section */
+body{
+    min-height: 100vh;
+    /*background: linear-gradient(to left top, #780206, #061161);*/
+    background-image: url("HRMS_image-3.jpeg");
+    background-repeat: repeat;
+    background-position: center;
+    background-color:cornsilk;
+    background-size: auto;
+}
+form{
+    background: linear-gradient(#4ca1af  , #c4e0e5);
+    width: 350px;
+    height: 500px;
+    padding-left: 75px 50px;
+    position: absolute;
+    left: 75%;
+    top: 51%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: blue;
+    font-size: 40px;
+}
+.textBox{
+    border-bottom: 2px solid black;
+    position: relative;
+    margin: 35px 0;
+}
+.textBox input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: black;
+    height: 30px;
+    font-size: 20px;
+}
+.loginBtn{
+    height: 45px;
+    width: 97%;
+    border: none;
+    outline: #061161;
+    background: linear-gradient(#4ca1af  , #c4e0e5);
+    background-size: 200%;
+    color: black;
+    font-size: 15px;
+}
+.loginBtn:hover{
+    font-size: 16px;
+}
+.signup{
+    color: black;
+    margin-top: 45px;
+    text-align: center;
+}
+.signup a{
+    text-decoration: underline;
+}
