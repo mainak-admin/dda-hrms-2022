@@ -1,6 +1,6 @@
 /* Select all the tags under .html file */
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 5px;
     padding: 1px;
     text-decoration: none;
@@ -10,27 +10,27 @@
 body{
     min-height: 100vh;
     /*background: linear-gradient(to left top, #780206, #061161);*/
-    background-image: url("HRMS_image-3.jpeg");
-    background-repeat: repeat;
+    background-image: url("HRMS_image-3.jpg");
+    background-repeat:no-repeat;
     background-position: center;
-    background-color:cornsilk;
-    background-size: auto;
+    background-color: lightgray;
+    background-size: 100%;
 }
 form{
-    background: linear-gradient(#4ca1af  , #c4e0e5);
+    background: linear-gradient(lightgray);    /* #4ca1af  , #c4e0e5 */
     width: 350px;
     height: 500px;
     padding-left: 75px 50px;
     position: absolute;
-    left: 75%;
-    top: 51%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 h1{
     text-align: center;
     margin-bottom: 45px;
-    color: blue;
-    font-size: 40px;
+    color: gray;
+    font-size: 25px;
 }
 .textBox{
     border-bottom: 2px solid black;
@@ -44,7 +44,7 @@ h1{
     width: 100%;
     color: black;
     height: 30px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .loginBtn{
     height: 45px;
@@ -67,3 +67,25 @@ h1{
 .signup a{
     text-decoration: underline;
 }
+.img-hr-logo{
+    width: 170px;
+    padding-left: 75px 50px;
+    position: absolute;
+    left: 47%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+}
+/* Create style icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: bottom;
+    text-decoration: none;
+    border-radius: 50%;
+    bottom: 50%;
+  } 
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+  }
