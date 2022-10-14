@@ -1,1 +1,1 @@
-SELECT * FROM hrmsdb.performance_review;
+SELECT * FROM hrmsdb.manager;
