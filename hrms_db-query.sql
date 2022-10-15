@@ -1,1 +1,1 @@
-SELECT * FROM hrmsdb.manager;
+SELECT * FROM hrmsdb.region_country;
