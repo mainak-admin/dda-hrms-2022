@@ -1,0 +1,21 @@
+{% extends 'home/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='HRMS-logo.png') }}">
+
+{% block content %}
+<body background-color: #eeeeee;>
+<h2>Human Resource Management System</h2>
+<p>Welcome ! {{ username }}!</p>
+<nav class="w3-bar_w3-black">
+    <a href="#configuration" class="w3-button w3-bar-item"><font style="font-family:Optima">CONFIGURATION</font></a>
+    <a href="#employee list" class="w3-button w3-bar-item"><font style="font-family:Optima">EMPLOYEE LIST</font></a>
+    <a href="#add employee" class="w3-button w3-bar-item"><font style="font-family:Optima">ADD EMPLOYEE</font></a>
+    <a href="#performance_ratings" class="w3-button w3-bar-item"><font style="font-family:Optima">PERFORMANCE & RATINGS</font></a>
+    <a href="{{ url_for('training_programs') }}" class="w3-button w3-bar-item"><font style="font-family:Optima">TRAININGS</font></a>
+  </nav>
+
+</body>
+{% endblock %}
